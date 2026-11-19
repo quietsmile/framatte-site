@@ -1,0 +1,480 @@
+<!doctype html>
+<html lang="en">
+<head>
+<title>Framatte — make every screenshot look launch-ready</title>
+<meta name="description" content="Framatte adds clean backgrounds, shadows and window frames to your screenshots in seconds. Runs in your browser, works offline, nothing is uploaded. One-time purchase.">
+<meta property="og:title" content="Framatte — make every screenshot look launch-ready">
+<meta property="og:description" content="Backgrounds, shadows and window frames for your screenshots. Works offline. One-time purchase.">
+<meta property="og:type" content="website">
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Cdefs%3E%3ClinearGradient id='g' x1='0' y1='0' x2='1' y2='1'%3E%3Cstop stop-color='%23ffb347'/%3E%3Cstop offset='1' stop-color='%23ff5f6d'/%3E%3C/linearGradient%3E%3C/defs%3E%3Crect width='32' height='32' rx='9' fill='url(%23g)'/%3E%3Crect x='8' y='8' width='16' height='16' rx='3' fill='white'/%3E%3C/svg%3E">
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="wrap nav">
+  <a class="brand" href="index.html"><span class="logo" aria-hidden="true"></span>Framatte</a>
+  <a class="link" href="index.html#features">Features</a>
+  <a class="link" href="index.html#pricing">Pricing</a>
+  <a class="link" href="index.html#faq">FAQ</a>
+  <a class="btn ghost" href="demo.html">Try the demo</a>
+  <a class="btn primary" href="index.html#pricing">Buy — $9</a>
+</header>
+
+<main>
+  <div class="wrap hero">
+    <span class="eyebrow">Screenshot beautifier · works offline</span>
+    <h1>Make every screenshot look launch-ready.</h1>
+    <p class="lede">Framatte wraps your screenshots in clean backgrounds, soft shadows and window frames. It takes seconds, runs in your browser, and never uploads your images.</p>
+    <div class="cta">
+      <a class="btn primary big" href="demo.html">Try the free demo</a>
+      <a class="btn big" href="index.html#pricing">Buy for $9</a>
+    </div>
+    <p class="fine">One-time purchase · No account · No subscription</p>
+    <canvas class="shot" role="img" aria-label="A dashboard screenshot placed on a warm gradient background inside a browser frame"
+      data-style='{"k":1,"s":{"bgIndex":0,"frame":"browser-light","url":"northwind.app/overview","pad":8,"aspect":"16:9"}}'></canvas>
+  </div>
+
+  <section>
+    <div class="wrap">
+      <div class="center">
+        <h2>From plain capture to polished image</h2>
+        <p class="sub">Drop a screenshot in, pick a look, export. The examples on this page are drawn live by the same engine that ships in the product.</p>
+      </div>
+      <div class="pairs">
+        <figure>
+          <canvas class="shot plain" role="img" aria-label="The original, undecorated screenshot"
+            data-style='{"k":0.6,"s":{"bgType":"none","pad":0,"shadow":0,"radius":0,"border":false}}'></canvas>
+          <figcaption>Before — the raw screenshot</figcaption>
+        </figure>
+        <figure>
+          <canvas class="shot" role="img" aria-label="The same screenshot on a soft gradient with rounded corners and a shadow"
+            data-style='{"k":0.6,"s":{"bgIndex":3,"pad":11,"radius":18,"shadow":70}}'></canvas>
+          <figcaption>After — about ten seconds later</figcaption>
+        </figure>
+      </div>
+      <div class="gallery">
+        <figure><canvas class="shot" role="img" aria-label="Dark dashboard on an aurora background with a headline"
+          data-style='{"k":0.5,"theme":"dark","s":{"bgIndex":12,"frame":"mac-dark","pad":10,"title":"Dark mode is here","aspect":"4:3"}}'></canvas></figure>
+        <figure><canvas class="shot" role="img" aria-label="Dashboard on a mint background inside a light window frame"
+          data-style='{"k":0.5,"s":{"bgIndex":4,"pad":12,"aspect":"4:3","frame":"mac-light"}}'></canvas></figure>
+        <figure><canvas class="shot" role="img" aria-label="Dashboard on a blue gradient with a browser frame"
+          data-style='{"k":0.5,"theme":"dark","s":{"bgIndex":7,"frame":"browser-dark","url":"yourproduct.com","pad":10,"aspect":"4:3","grain":true}}'></canvas></figure>
+      </div>
+    </div>
+  </section>
+
+  <section id="features">
+    <div class="wrap">
+      <h2>Everything you need, nothing you don't</h2>
+      <p class="sub">A small, focused tool for people who share product screenshots: makers, developers, marketers, writers and support teams.</p>
+      <div class="grid">
+        <div class="card"><h3>Private by design</h3><p>Your images are processed on your own device. There is no upload, no server and no account.</p></div>
+        <div class="card"><h3>18 backgrounds, plus your own</h3><p>Gradients and soft mesh backdrops, a custom two-colour gradient, solid colours, or a transparent background.</p></div>
+        <div class="card"><h3>Window and browser frames</h3><p>Add a light or dark window bar, or a browser bar with your own address in it.</p></div>
+        <div class="card"><h3>Headlines that stay readable</h3><p>Put a headline above or below the screenshot. The text colour adapts to the background automatically.</p></div>
+        <div class="card"><h3>Sized for where you post</h3><p>Fit to the screenshot, or pick 16:9, 4:3, 3:2, 1:1, 4:5 or 9:16. Export PNG, JPEG or WebP at up to 3×.</p></div>
+        <div class="card"><h3>One file, works offline</h3><p>The full version is a single file you open in your browser. No installer, no updates forced on you.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section>
+    <div class="wrap">
+      <h2>How it works</h2>
+      <p class="sub">Three steps, usually under a minute.</p>
+      <div class="grid">
+        <div class="card"><span class="num">1</span><h3>Add a screenshot</h3><p>Drop a file onto the window, paste from your clipboard, or open an image from disk.</p></div>
+        <div class="card"><span class="num">2</span><h3>Pick a look</h3><p>Choose a background, then adjust padding, corners, shadow, frame and headline.</p></div>
+        <div class="card"><span class="num">3</span><h3>Export</h3><p>Download the image or copy it straight to your clipboard, ready to post.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section id="pricing">
+    <div class="wrap center">
+      <h2>Simple pricing</h2>
+      <p class="sub">Pay once, keep it. Try the demo first to make sure it suits you.</p>
+      <div class="card price">
+        <div class="amount">$9<small>one-time, per person</small></div>
+        <ul>
+          <li>The full Framatte app as a single offline file</li>
+          <li>All 18 backgrounds, frames and headline options</li>
+          <li>Export at 1×, 2× and 3× with no badge</li>
+          <li>Use your images anywhere, including commercially</li>
+          <li>Free updates to all 1.x versions</li>
+          <li>14-day money-back guarantee</li>
+        </ul>
+        <a class="btn primary big" href="index.html#pricing">Buy Framatte — $9</a>
+        <p class="fine">Secure checkout by Creem, our reseller and merchant of record. Taxes may be added at checkout depending on your country.</p>
+      </div>
+    </div>
+  </section>
+
+  <section id="faq">
+    <div class="wrap">
+      <div class="center"><h2>Questions</h2></div>
+      <div class="faq">
+        <details><summary>What exactly do I get?</summary><p>A zip file containing Framatte.html, a short readme and the licence. Open the HTML file in your browser and start using it. The download link is shown after checkout and sent to your email.</p></details>
+        <details><summary>Is this a subscription?</summary><p>No. It is a one-time purchase. There are no recurring charges.</p></details>
+        <details><summary>Are my screenshots uploaded anywhere?</summary><p>No. All rendering happens locally in your browser. The app makes no network requests and works with the internet switched off.</p></details>
+        <details><summary>What is different in the free demo?</summary><p>The demo has 6 of the 18 backgrounds, exports at 1× only, and adds a small "Made with Framatte" badge to exported images. Everything else works the same, so you can judge the tool properly before buying.</p></details>
+        <details><summary>Which browsers are supported?</summary><p>Current versions of Chrome, Edge, Safari and Firefox on desktop. It also runs on phones and tablets, though it is designed for desktop use.</p></details>
+        <details><summary>Can I use the images commercially?</summary><p>Yes. Images you create are yours to use for any purpose, with no attribution required. One licence covers one person on all of their devices.</p></details>
+        <details><summary>What is your refund policy?</summary><p>If Framatte is not right for you, email us within 14 days of purchase and we will refund you. See the <a href="refund.html">refund policy</a>.</p></details>
+        <details><summary>How do I get help?</summary><p>Email <a href="mailto:support@getframatte.com">support@getframatte.com</a>. We aim to reply within three business days.</p></details>
+      </div>
+    </div>
+  </section>
+</main>
+
+<footer>
+  <div class="wrap foot">
+    <span>© 2026 Framatte. Made by an independent developer.</span>
+    <a href="terms.html">Terms</a>
+    <a href="privacy.html">Privacy</a>
+    <a href="refund.html">Refunds</a>
+    <a href="mailto:support@getframatte.com">support@getframatte.com</a>
+  </div>
+</footer>
+
+<script>
+/* Rendering engine shared by the app and the marketing site.
+   Everything is drawn on a 2D canvas, so the output is exactly what gets exported. */
+const Engine = (() => {
+  const lin = (name, angle, ...stops) => ({ name, type: 'linear', angle, stops });
+  const mesh = (name, base, ...blobs) => ({ name, type: 'mesh', base, blobs });
+
+  const PRESETS = [
+    lin('Ember', 135, '#ffb347', '#ff5f6d'),
+    lin('Lagoon', 135, '#43e7c8', '#3b82f6'),
+    lin('Orchid', 135, '#c084fc', '#6366f1'),
+    lin('Dawn', 160, '#fde6c8', '#f7b2c4', '#b9a7f5'),
+    lin('Mint', 135, '#d9f99d', '#5eead4'),
+    lin('Slate', 160, '#3b475c', '#0f172a'),
+    lin('Peach', 135, '#ffe0c2', '#ffb4a2'),
+    lin('Ocean', 180, '#0ea5e9', '#1e3a8a'),
+    lin('Berry', 135, '#f43f5e', '#7c3aed'),
+    lin('Sand', 160, '#f5efe6', '#e2d5c3'),
+    lin('Forest', 150, '#34d399', '#065f46'),
+    lin('Sky', 180, '#e0f2fe', '#bae6fd', '#c7d2fe'),
+    mesh('Aurora', '#0b1026', [0.15, 0.2, 0.6, '#22d3ee'], [0.85, 0.15, 0.55, '#a855f7'], [0.6, 0.95, 0.6, '#34d399']),
+    mesh('Candy', '#fff1f2', [0.1, 0.1, 0.6, '#fda4af'], [0.9, 0.2, 0.6, '#c4b5fd'], [0.5, 1, 0.6, '#fde68a']),
+    mesh('Nebula', '#0f0720', [0.2, 0.8, 0.6, '#ec4899'], [0.8, 0.2, 0.6, '#6366f1'], [0.9, 0.9, 0.4, '#f59e0b']),
+    mesh('Glacier', '#eef6ff', [0.1, 0.9, 0.6, '#93c5fd'], [0.9, 0.1, 0.6, '#a5f3fc'], [0.5, 0.4, 0.4, '#ddd6fe']),
+    mesh('Lava', '#1a0a0a', [0.15, 0.15, 0.6, '#ef4444'], [0.85, 0.85, 0.6, '#f97316'], [0.8, 0.1, 0.4, '#7c2d12']),
+    mesh('Meadow', '#f3fbe9', [0.1, 0.2, 0.6, '#bef264'], [0.9, 0.8, 0.6, '#5eead4'], [0.8, 0.1, 0.4, '#fde68a']),
+  ];
+
+  const ASPECTS = { auto: 0, '16:9': 16 / 9, '3:2': 3 / 2, '4:3': 4 / 3, '1:1': 1, '4:5': 4 / 5, '9:16': 9 / 16 };
+
+  const DEFAULTS = {
+    bgType: 'preset',      // preset | custom | solid | none
+    bgIndex: 0,
+    c1: '#ff8a5c', c2: '#7c5cff', angle: 135,
+    solid: '#111827',
+    grain: false,
+    pad: 9,                // % of the screenshot size
+    radius: 14,
+    shadow: 55,            // 0–100
+    border: true,
+    frame: 'none',         // none | mac-light | mac-dark | browser-light | browser-dark
+    url: 'yourproduct.com',
+    aspect: 'auto',
+    title: '',
+    titleSize: 100,        // %
+    titlePos: 'top',       // top | bottom
+    scale: 1,
+    format: 'png',
+  };
+
+  const FONT = 'ui-sans-serif, system-ui, -apple-system, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif';
+
+  function rgba(hex, a) {
+    const h = hex.replace('#', '');
+    const n = parseInt(h.length === 3 ? h.split('').map(c => c + c).join('') : h, 16);
+    return `rgba(${(n >> 16) & 255},${(n >> 8) & 255},${n & 255},${a})`;
+  }
+
+  function presetCss(p) {
+    if (p.type === 'linear') return `linear-gradient(${p.angle}deg, ${p.stops.join(', ')})`;
+    return p.blobs.map(([x, y, r, c]) =>
+      `radial-gradient(circle at ${x * 100}% ${y * 100}%, ${c}, transparent ${r * 100}%)`).join(', ') + `, ${p.base}`;
+  }
+
+  function roundRect(ctx, x, y, w, h, r) {
+    const tl = Array.isArray(r) ? r[0] : r, tr = Array.isArray(r) ? r[1] : r;
+    const br = Array.isArray(r) ? r[2] : r, bl = Array.isArray(r) ? r[3] : r;
+    ctx.beginPath();
+    ctx.moveTo(x + tl, y);
+    ctx.lineTo(x + w - tr, y); ctx.arcTo(x + w, y, x + w, y + tr, tr);
+    ctx.lineTo(x + w, y + h - br); ctx.arcTo(x + w, y + h, x + w - br, y + h, br);
+    ctx.lineTo(x + bl, y + h); ctx.arcTo(x, y + h, x, y + h - bl, bl);
+    ctx.lineTo(x, y + tl); ctx.arcTo(x, y, x + tl, y, tl);
+    ctx.closePath();
+  }
+
+  function linearGradient(ctx, W, H, angle, stops) {
+    const t = angle * Math.PI / 180, dx = Math.sin(t), dy = -Math.cos(t);
+    const L = Math.abs(W * dx) / 2 + Math.abs(H * dy) / 2, cx = W / 2, cy = H / 2;
+    const g = ctx.createLinearGradient(cx - dx * L, cy - dy * L, cx + dx * L, cy + dy * L);
+    stops.forEach((c, i) => g.addColorStop(stops.length === 1 ? 0 : i / (stops.length - 1), c));
+    return g;
+  }
+
+  function drawBackground(ctx, W, H, S) {
+    if (S.bgType === 'none') return;
+    if (S.bgType === 'solid') { ctx.fillStyle = S.solid; ctx.fillRect(0, 0, W, H); return; }
+    if (S.bgType === 'custom') {
+      ctx.fillStyle = linearGradient(ctx, W, H, S.angle, [S.c1, S.c2]); ctx.fillRect(0, 0, W, H); return;
+    }
+    const p = PRESETS[S.bgIndex] || PRESETS[0];
+    if (p.type === 'linear') {
+      ctx.fillStyle = linearGradient(ctx, W, H, p.angle, p.stops); ctx.fillRect(0, 0, W, H); return;
+    }
+    ctx.fillStyle = p.base; ctx.fillRect(0, 0, W, H);
+    const m = Math.max(W, H);
+    for (const [x, y, r, c] of p.blobs) {
+      const g = ctx.createRadialGradient(x * W, y * H, 0, x * W, y * H, r * m);
+      g.addColorStop(0, rgba(c, 0.95)); g.addColorStop(1, rgba(c, 0));
+      ctx.fillStyle = g; ctx.fillRect(0, 0, W, H);
+    }
+  }
+
+  let grainTile = null;
+  function grain(ctx, w, h) {
+    if (!grainTile) {
+      grainTile = document.createElement('canvas'); grainTile.width = grainTile.height = 160;
+      const g = grainTile.getContext('2d'), d = g.createImageData(160, 160);
+      for (let i = 0; i < d.data.length; i += 4) {
+        const v = Math.random() * 255 | 0; d.data[i] = d.data[i + 1] = d.data[i + 2] = v; d.data[i + 3] = 26;
+      }
+      g.putImageData(d, 0, 0);
+    }
+    ctx.save(); ctx.setTransform(1, 0, 0, 1, 0, 0);
+    ctx.globalCompositeOperation = 'overlay';
+    ctx.fillStyle = ctx.createPattern(grainTile, 'repeat'); ctx.fillRect(0, 0, w, h);
+    ctx.restore();
+  }
+
+  function wrap(ctx, text, maxW) {
+    const out = [];
+    for (const para of text.split('\n')) {
+      let line = '';
+      for (const word of para.split(/\s+/).filter(Boolean)) {
+        const next = line ? line + ' ' + word : word;
+        if (line && ctx.measureText(next).width > maxW) { out.push(line); line = word; } else line = next;
+      }
+      out.push(line);
+    }
+    return out.slice(0, 4);
+  }
+
+  /* All sizes are in screenshot pixels; `k` in draw() scales them to canvas pixels. */
+  function layout(ctx, iw, ih, S) {
+    const u = Math.max(iw, 480) / 1000;
+    const framed = S.frame !== 'none';
+    const barH = framed ? Math.round(44 * u) : 0;
+    const cw = iw, ch = ih + barH;
+    const pad = Math.round(S.pad / 100 * (cw + ch) / 2);
+    const text = (S.title || '').trim();
+    let lines = [], fs = 0, lh = 0, titleH = 0, gap = 0, edge = 0;
+    if (text) {
+      fs = Math.round(54 * u * S.titleSize / 100); lh = Math.round(fs * 1.18);
+      ctx.font = `700 ${fs}px ${FONT}`;
+      lines = wrap(ctx, text, cw + pad);
+      titleH = lines.length * lh;
+      gap = Math.max(Math.round(pad * 0.5), Math.round(fs * 0.55));
+      edge = Math.max(pad, Math.round(fs * 0.9));
+    }
+    const top = text && S.titlePos === 'top' ? edge + titleH + gap : pad;
+    const bottom = text && S.titlePos === 'bottom' ? gap + titleH + edge : pad;
+    let W = cw + 2 * pad, H = top + ch + bottom;
+    const a = ASPECTS[S.aspect] || 0;
+    let ox = 0, oy = 0;
+    if (a) {
+      if (W / H > a) { const nh = Math.round(W / a); oy = (nh - H) / 2; H = nh; }
+      else { const nw = Math.round(H * a); ox = (nw - W) / 2; W = nw; }
+    }
+    const x = ox + pad, y = oy + top;
+    const titleY = S.titlePos === 'top' ? oy + edge : y + ch + gap;
+    return { u, barH, cw, ch, pad, W, H, x, y, lines, fs, lh, titleY, framed };
+  }
+
+  function draw(canvas, img, S, opts = {}) {
+    const k = opts.k || 1;
+    const ctx = canvas.getContext('2d');
+    const iw = img.naturalWidth || img.width, ih = img.naturalHeight || img.height;
+    const L = layout(ctx, iw, ih, S);
+    canvas.width = Math.max(1, Math.round(L.W * k)); canvas.height = Math.max(1, Math.round(L.H * k));
+    ctx.setTransform(k, 0, 0, k, 0, 0);
+    ctx.clearRect(0, 0, L.W, L.H);
+    ctx.imageSmoothingEnabled = true; ctx.imageSmoothingQuality = 'high';
+
+    if (S.bgType === 'none' && S.format === 'jpeg' && opts.final) { ctx.fillStyle = '#fff'; ctx.fillRect(0, 0, L.W, L.H); }
+    drawBackground(ctx, L.W, L.H, S);
+    if (S.grain && S.bgType !== 'none') grain(ctx, canvas.width, canvas.height);
+
+    if (L.lines.length) {
+      let dark = false;
+      try {
+        const px = ctx.getImageData(canvas.width >> 1, Math.min(canvas.height - 1, Math.round((L.titleY + L.fs / 2) * k)), 1, 1).data;
+        dark = px[3] < 40 ? false : (0.2126 * px[0] + 0.7152 * px[1] + 0.0722 * px[2]) < 150;
+      } catch (e) { /* keep default */ }
+      ctx.font = `700 ${L.fs}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'top';
+      ctx.fillStyle = dark ? '#ffffff' : '#111827';
+      L.lines.forEach((t, i) => ctx.fillText(t, L.W / 2, L.titleY + i * L.lh + (L.lh - L.fs) / 2));
+    }
+
+    const r = Math.min(S.radius * L.u, L.cw / 2, L.ch / 2);
+    const darkFrame = S.frame.endsWith('dark');
+    const barColor = darkFrame ? '#2a2c31' : '#eceef1';
+
+    if (S.shadow > 0) {
+      const s = S.shadow / 100;
+      for (const [blur, off, alpha] of [[90 * L.u * s, 40 * L.u * s, 0.34 * s + 0.08], [18 * L.u * s, 6 * L.u * s, 0.22 * s]]) {
+        ctx.save();
+        ctx.shadowColor = `rgba(8,10,20,${alpha})`; ctx.shadowBlur = blur * k; ctx.shadowOffsetY = off * k;
+        ctx.fillStyle = L.framed ? barColor : '#ffffff';
+        roundRect(ctx, L.x, L.y, L.cw, L.ch, r); ctx.fill();
+        ctx.restore();
+      }
+    }
+
+    ctx.save();
+    roundRect(ctx, L.x, L.y, L.cw, L.ch, r); ctx.clip();
+    if (L.framed) {
+      ctx.fillStyle = barColor; ctx.fillRect(L.x, L.y, L.cw, L.barH);
+      const cy = L.y + L.barH / 2, dot = 6.2 * L.u;
+      ['#ff5f57', '#febc2e', '#28c840'].forEach((c, i) => {
+        ctx.fillStyle = c; ctx.beginPath(); ctx.arc(L.x + (22 + i * 21) * L.u, cy, dot, 0, Math.PI * 2); ctx.fill();
+      });
+      if (S.frame.startsWith('browser')) {
+        const pw = Math.min(L.cw * 0.5, L.cw - 220 * L.u), ph = L.barH * 0.62;
+        if (pw > 60 * L.u) {
+          ctx.fillStyle = darkFrame ? '#1b1c20' : '#ffffff';
+          roundRect(ctx, L.x + (L.cw - pw) / 2, cy - ph / 2, pw, ph, ph / 2); ctx.fill();
+          ctx.fillStyle = darkFrame ? '#a3a7b0' : '#5b6170';
+          ctx.font = `500 ${Math.round(L.barH * 0.31)}px ${FONT}`; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+          ctx.fillText(S.url || '', L.x + L.cw / 2, cy + L.u, pw - 24 * L.u);
+        }
+      }
+      ctx.fillStyle = darkFrame ? 'rgba(255,255,255,.07)' : 'rgba(0,0,0,.08)';
+      ctx.fillRect(L.x, L.y + L.barH - Math.max(1 / k, L.u), L.cw, Math.max(1 / k, L.u));
+    }
+    ctx.drawImage(img, L.x, L.y + L.barH, iw, ih);
+    ctx.restore();
+
+    if (S.border) {
+      const lw = Math.max(1 / k, 1.2 * L.u);
+      ctx.save(); ctx.lineWidth = lw; ctx.strokeStyle = 'rgba(10,12,24,.14)';
+      roundRect(ctx, L.x - lw / 2, L.y - lw / 2, L.cw + lw, L.ch + lw, r + lw / 2); ctx.stroke();
+      ctx.restore();
+    }
+
+    if (opts.watermark) {
+      const fs = Math.max(11 / k, L.W * 0.0125), padX = fs * 0.8, h = fs * 2;
+      ctx.font = `600 ${fs}px ${FONT}`;
+      const w = ctx.measureText(opts.watermark).width + padX * 2, m = fs * 0.9;
+      ctx.fillStyle = 'rgba(12,14,22,.62)';
+      roundRect(ctx, L.W - w - m, L.H - h - m, w, h, h / 2); ctx.fill();
+      ctx.fillStyle = '#fff'; ctx.textAlign = 'center'; ctx.textBaseline = 'middle';
+      ctx.fillText(opts.watermark, L.W - m - w / 2, L.H - m - h / 2 + fs * 0.05);
+    }
+    return L;
+  }
+
+  /* A generic dashboard mock-up, drawn from scratch, used as the demo screenshot. */
+  function makeSample(theme = 'light') {
+    const D = theme === 'dark';
+    const C = D
+      ? { bg: '#0f1218', side: '#0a0c11', card: '#171b23', line: '#252a35', ink: '#eef1f6', mute: '#8b93a3', soft: '#1f2430', acc: '#7c9cff', acc2: '#3ddbb4' }
+      : { bg: '#f5f6f8', side: '#111827', card: '#ffffff', line: '#e6e8ee', ink: '#141821', mute: '#7a8394', soft: '#eef0f4', acc: '#4f6df5', acc2: '#12b886' };
+    const c = document.createElement('canvas'); c.width = 1440; c.height = 900;
+    const x = c.getContext('2d');
+    const T = (t, px, py, size, color, weight = 500, align = 'left') => {
+      x.font = `${weight} ${size}px ${FONT}`; x.fillStyle = color; x.textAlign = align; x.textBaseline = 'alphabetic'; x.fillText(t, px, py);
+    };
+    const R = (px, py, w, h, r, fill) => { roundRect(x, px, py, w, h, r); x.fillStyle = fill; x.fill(); };
+    x.fillStyle = C.bg; x.fillRect(0, 0, 1440, 900);
+    x.fillStyle = C.side; x.fillRect(0, 0, 232, 900);
+    R(28, 30, 30, 30, 9, C.acc); T('Northwind', 70, 52, 18, '#ffffff', 700);
+    ['Overview', 'Customers', 'Orders', 'Products', 'Reports', 'Settings'].forEach((t, i) => {
+      const py = 104 + i * 46;
+      if (i === 0) R(16, py, 200, 38, 10, 'rgba(255,255,255,.1)');
+      R(30, py + 12, 14, 14, 4, i === 0 ? C.acc : 'rgba(255,255,255,.28)');
+      T(t, 58, py + 25, 15, i === 0 ? '#ffffff' : 'rgba(255,255,255,.62)', i === 0 ? 600 : 500);
+    });
+    R(16, 824, 200, 52, 12, 'rgba(255,255,255,.06)');
+    x.beginPath(); x.arc(44, 850, 14, 0, 7); x.fillStyle = C.acc2; x.fill();
+    T('Avery Stone', 68, 847, 13, '#ffffff', 600); T('Admin', 68, 864, 12, 'rgba(255,255,255,.5)');
+
+    T('Overview', 268, 62, 26, C.ink, 700); T('Last 30 days', 268, 86, 14, C.mute);
+    R(1010, 34, 250, 40, 20, C.card); x.strokeStyle = C.line; x.lineWidth = 1; roundRect(x, 1010.5, 34.5, 250, 40, 20); x.stroke();
+    T('Search…', 1034, 59, 14, C.mute);
+    R(1276, 34, 130, 40, 20, C.acc); T('New report', 1341, 59, 14, '#ffffff', 600, 'center');
+
+    [['Revenue', '$48,290', '+12.4%', true], ['Orders', '1,284', '+3.1%', true], ['Conversion', '4.8%', '−0.4%', false], ['Avg. order', '$37.60', '+1.9%', true]]
+      .forEach(([l, v, d, up], i) => {
+        const px = 268 + i * 288;
+        R(px, 118, 272, 124, 16, C.card); x.strokeStyle = C.line; roundRect(x, px + .5, 118.5, 272, 124, 16); x.stroke();
+        T(l, px + 22, 152, 14, C.mute); T(v, px + 22, 196, 32, C.ink, 700);
+        R(px + 22, 208, 62, 22, 11, up ? rgba(C.acc2, .16) : 'rgba(239,68,68,.14)');
+        T(d, px + 53, 224, 12, up ? C.acc2 : '#ef4444', 600, 'center');
+      });
+
+    R(268, 262, 760, 400, 16, C.card); x.strokeStyle = C.line; roundRect(x, 268.5, 262.5, 760, 400, 16); x.stroke();
+    T('Revenue over time', 292, 302, 17, C.ink, 600); T('Daily, USD', 292, 324, 13, C.mute);
+    for (let i = 0; i < 5; i++) { x.fillStyle = C.line; x.fillRect(292, 372 + i * 60, 712, 1); }
+    const pts = [0.3, 0.36, 0.33, 0.45, 0.42, 0.55, 0.5, 0.62, 0.58, 0.72, 0.66, 0.8, 0.78, 0.9];
+    const P = i => [292 + i * (712 / (pts.length - 1)), 612 - pts[i] * 250];
+    const path = () => {
+      x.beginPath(); x.moveTo(...P(0));
+      for (let i = 1; i < pts.length; i++) { const [ax, ay] = P(i - 1), [bx, by] = P(i), mx = (ax + bx) / 2; x.bezierCurveTo(mx, ay, mx, by, bx, by); }
+    };
+    path(); x.lineTo(1004, 612); x.lineTo(292, 612); x.closePath();
+    const g = x.createLinearGradient(0, 380, 0, 612); g.addColorStop(0, rgba(C.acc, .28)); g.addColorStop(1, rgba(C.acc, 0));
+    x.fillStyle = g; x.fill();
+    path(); x.strokeStyle = C.acc; x.lineWidth = 3; x.stroke();
+    const [ex, ey] = P(pts.length - 1); x.beginPath(); x.arc(ex, ey, 6, 0, 7); x.fillStyle = C.card; x.fill(); x.strokeStyle = C.acc; x.lineWidth = 3; x.stroke();
+    ['Mar 1', 'Mar 8', 'Mar 15', 'Mar 22', 'Mar 29'].forEach((t, i) => T(t, 292 + i * 170, 642, 12, C.mute));
+
+    R(1044, 262, 360, 400, 16, C.card); x.strokeStyle = C.line; x.lineWidth = 1; roundRect(x, 1044.5, 262.5, 360, 400, 16); x.stroke();
+    T('Top channels', 1068, 302, 17, C.ink, 600);
+    [['Organic search', 0.82, '38%'], ['Newsletter', 0.61, '27%'], ['Referrals', 0.44, '19%'], ['Social', 0.27, '11%'], ['Other', 0.12, '5%']].forEach(([l, w, p], i) => {
+      const py = 338 + i * 62;
+      T(l, 1068, py + 14, 14, C.ink); T(p, 1380, py + 14, 14, C.mute, 500, 'right');
+      R(1068, py + 26, 312, 8, 4, C.soft); R(1068, py + 26, 312 * w, 8, 4, i % 2 ? C.acc2 : C.acc);
+    });
+
+    R(268, 682, 1136, 190, 16, C.card); x.strokeStyle = C.line; roundRect(x, 268.5, 682.5, 1136, 190, 16); x.stroke();
+    T('Recent orders', 292, 722, 17, C.ink, 600);
+    ['Order', 'Customer', 'Status', 'Total'].forEach((t, i) => T(t, 292 + i * 280, 756, 12, C.mute, 600));
+    [['#10482', 'Mara Lindqvist', 'Paid', '$128.00'], ['#10481', 'Jonas Ferreira', 'Shipped', '$64.50'], ['#10480', 'Priya Raman', 'Paid', '$212.90']].forEach((row, j) => {
+      const py = 790 + j * 30; x.fillStyle = C.line; x.fillRect(292, py - 20, 1088, 1);
+      row.forEach((t, i) => T(t, 292 + i * 280, py, 14, i === 2 ? (t === 'Paid' ? C.acc2 : C.acc) : C.ink, i === 2 ? 600 : 500));
+    });
+    return c;
+  }
+
+  let scratch = null;
+  function measure(img, S) {
+    scratch = scratch || document.createElement('canvas');
+    return layout(scratch.getContext('2d'), img.naturalWidth || img.width, img.naturalHeight || img.height, S);
+  }
+
+  return { PRESETS, ASPECTS, DEFAULTS, presetCss, draw, measure, makeSample };
+})();
+
+</script>
+<script>
+(() => {
+  const samples = { light: Engine.makeSample('light'), dark: Engine.makeSample('dark') };
+  document.querySelectorAll('canvas[data-style]').forEach(c => {
+    const o = JSON.parse(c.dataset.style);
+    Engine.draw(c, samples[o.theme || 'light'], { ...Engine.DEFAULTS, ...o.s }, { k: o.k || 0.6 });
+  });
+})();
+</script>
+</body>
+</html>
